@@ -11,7 +11,7 @@ from matplotlib import pyplot as plt
 from PIL import Image
 import numpy as np
 
-img1 = np.array(Image.open('/media/sammy/PART1/random photu/geeks'))
+img1 = np.array(Image.open('geeks14.png'))
 figure, plots = plt.subplots(ncols=3, nrows=1)
 for i, subplot in zip(range(3), plots):
     temp = np.zeros(img1.shape, dtype='uint8')
